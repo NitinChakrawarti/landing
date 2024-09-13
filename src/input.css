@@ -5,7 +5,7 @@
 
 @layer components {
     body {
-        @apply font-[Jost] text-[22px] text-#4d5053;
+        @apply font-[Jost] text-[22px] text-[#4d5053];
     }
 
     a {
@@ -18,7 +18,7 @@
     h4,
     h5,
     h6 {
-        @apply 
+        @apply font-[DM Serif Display] text-[#292f36];
     }
 
     .h1 {
