@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["*.{html,js}"],
+  content: ["./*.html"],
   theme: {
     container: {
       padding: {
@@ -13,7 +13,7 @@ module.exports = {
         xl: '1200px'
       },
       fontFamily: {
-        primary: 'DM Serif Display',
+        primary:'DM Serif Display',
         secondary: 'Jost',
       },
       backgroundImage: {
@@ -22,20 +22,21 @@ module.exports = {
       }
     },
     extend: {
-      colors:{
-        primary:{
-
+      colors: {
+        primary: {
           DEFAULT: '#292f36',
           hover: '#343e4a'
         },
-        secondary:"#4d5053",
-        accent:{
+        secondary: "#4d5053",
+        accent: {
           DEFAULT: '#cda274',
-          secondary:'#f4f0ec',
-          hover:'#b88c5d',
+          secondary: '#f4f0ec',
+          hover: '#b88c5d',
         },
       }
     },
   },
+
   plugins: [],
 }
+
